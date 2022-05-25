@@ -65,17 +65,6 @@ body.dark-theme {
   --container-color: #27302C;
 }
 
-/*========== LOGO SVG ==========*/
-/*========== Button Dark/Light ==========*/
-.change-theme {
-  position: absolute;
-  right: 1rem;
-  top: 1.8rem;
-  color: var(--text-color);
-  font-size: 1rem;
-  cursor: pointer;
-}
-
 body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
@@ -407,39 +396,6 @@ img {
   border-radius: .5rem 0 .5rem 0;
 }
 
-/*========== APP ==========*/
-.app__data {
-  text-align: center;
-}
-
-.app__description {
-  margin-bottom: var(--mb-5);
-}
-
-.app__stores {
-  margin-bottom: var(--mb-4);
-}
-
-.app__store {
-  width: 120px;
-  margin: 0 var(--mb-1);
-}
-
-.app__img {
-  width: 230px;
-  -ms-grid-column-align: center;
-      justify-self: center;
-}
-
-/*========== CONTACT ==========*/
-.contact__container {
-  text-align: center;
-}
-
-.contact__description {
-  margin-bottom: var(--mb-3);
-}
-
 /*========== FOOTER ==========*/
 .footer__container {
   -ms-grid-columns: (minmax(220px, 1fr))[auto-fit];
@@ -447,34 +403,21 @@ img {
   row-gap: 2rem;
 }
 
-.footer__logo {
-  font-size: var(--h3-font-size);
-  color: var(--first-color);
-  font-weight: var(--font-semi-bold);
-}
-
 .footer__description {
   display: block;
   font-size: var(--small-font-size);
-  margin: 0.25rem 0 var(--mb-3);
-}
-
-.footer__social {
-  font-size: 1.5rem;
-  color: var(--title-color);
-  margin-right: var(--mb-2);
+  margin: 0.25rem 0 var(--mb-1);
 }
 
 .footer__title {
   font-size: var(--h2-font-size);
   color: var(--title-color);
-  margin-bottom: var(--mb-2);
 }
 
 .footer__link {
   display: inline-block;
   color: var(--text-color);
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-3);
 }
 
 .footer__link:hover {
@@ -485,7 +428,6 @@ img {
   text-align: center;
   font-size: var(--small-font-size);
   color: var(--text-color-light);
-  margin-top: 3.5rem;
 }
 
 /*========== MEDIA QUERIES ==========*/
